@@ -51,10 +51,20 @@ a {
     font-weight: bold;
 }
 
+.hero-secondary-text {
+    font-size: 18px;
+    color: #F5E7EB;
+}
+
 .sign-up-button {
     width: fit-content;
     height: 24px;
     flex: none;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    color: #F9FAF8;
+    padding: 0 12px;
 }
 
 .hero-image {
@@ -67,11 +77,19 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 20vw;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 32px 0;
 }
 
 .info-row {
     display: flex;
-    width: 600px;
+    /* width: 600px; */
     gap: 32px;
 }
 
@@ -89,6 +107,7 @@ a {
 
 .info-text {
     text-align: center;
+    color: #1F2937;
 }
 
 .quote {
@@ -99,20 +118,45 @@ a {
     padding: 24px 20vw;
 }
 
+.quote-text {
+    font-size: 36px;
+    text-emphasis: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
 .quote-author {
     align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
 }
 
 .call-to-action {
     display: flex;
-    padding: 32px 20vw;
+    margin: 32px 25vw;
+    padding: 24px 5vw;
+    background-color: #3882F6;
+    border-radius: 20px;
+}
+
+.call-to-action .sign-up-button {
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
 }
 
 .call-to-action-left {
     margin-right: auto;
+    color: #F9FAF8;
+}
+
+.call-to-action-primary-text {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .footer {
     background-color: #1F2937;
     text-align: center;
+    padding: 32px;
+    color: #F9FAF8;
 }
