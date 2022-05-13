@@ -11,7 +11,7 @@ body {
     align-items: center;
     color: white;
     background-color: #1F2937;
-    padding: 12px 128px;
+    padding: 32px 15vw;
 }
 
 .header-logo {
@@ -35,6 +35,7 @@ a {
     display: flex;
     gap: 64px;
     background-color: #1F2937;
+    padding: 32px 15vw;
 }
 
 .hero-left {
@@ -42,16 +43,22 @@ a {
     flex-direction: column;
     justify-content: center;
     margin-right: auto;
-    /* flex: auto; */
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .sign-up-button {
-    width: 72px;
+    width: fit-content;
     height: 24px;
+    flex: none;
 }
 
 .hero-image {
-    width: 400px;
+    width: 30vw;
     object-fit: contain;
     flex: auto;
 }
@@ -88,6 +95,8 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    margin: 32px 0;
+    padding: 24px 20vw;
 }
 
 .quote-author {
@@ -96,6 +105,7 @@ a {
 
 .call-to-action {
     display: flex;
+    padding: 32px 20vw;
 }
 
 .call-to-action-left {
